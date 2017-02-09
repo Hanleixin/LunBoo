@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         initview();//初始化
         ActionBar supportActionBar = getSupportActionBar();
+        //将Actionbar隐藏
         if(supportActionBar!=null){
             supportActionBar.hide();
         }
